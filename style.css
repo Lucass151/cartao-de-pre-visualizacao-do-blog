@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 62.5%;
+  background-color: #ffcc33d8;
+}
+
+.container {
+  position: relative;
+  margin: 10rem auto;
+  max-width: 22rem;
+  min-height: 30.6rem;
+  background-color: #fff;
+  border-right: 0.5rem solid #000;
+  border-bottom: 0.5rem solid #000;
+  border-top: 0.1rem solid #000;
+  border-left: 0.1rem solid #000;
+  border-radius: 1.7rem;
+}
+
+#imagem-avatar {
+  width: 20rem;
+  border-radius: 0.7rem;
+  margin: 1.2rem 0 0 1rem;
+}
+
+@font-face {
+  font-family: Figtree-ExtraBold;
+  src: url(../fonts/Figtree-ExtraBold.ttf);
+}
+
+#titulo {
+  padding: 0.5rem 0rem 1rem 1rem;
+  background-color: #ffcc33d8;
+  border-radius: 0.5rem;
+  width: 7.5rem;
+  margin: 1.8rem 0 0 1rem;
+  height: 1rem;
+  font-family: Figtree-ExtraBold;
+}
+
+@font-face {
+  font-family: Figtree-SemiBold;
+  src: url(../fonts/Figtree-SemiBold.ttf);
+}
+
+#publicacao {
+  margin: 0.8rem 0 0 1rem;
+  font-family: Figtree-SemiBold;
+  font-size: 0.8rem;
+}
+
+#titulo2 {
+  margin: 1.5rem 0 0 1rem;
+  font-family: Figtree-SemiBold;
+  font-size: 1.2rem;
+  color: #ffcc33d8;
+}
+
+@font-face {
+  font-family: Figtree-VariableFont_wght;
+  src: url(../fonts/Figtree-VariableFont_wght.ttf);
+}
+
+#citacao {
+  margin: 1rem 0 0 1rem;
+  font-family: Figtree-VariableFont_wght;
+  font-size: 0.8rem;
+}
+
+#imagem-principal {
+  margin: 1rem 0 0 1rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+#container2 {
+  display: flex;
+  align-items: center;
+}
+
+#nome {
+  padding: 1rem 0 0rem 1rem;
+  font-family: Figtree-ExtraBold;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 320px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-size: 62.5%;
+    background-color: #ffcc33d8;
+  }
+
+  .container {
+    position: relative;
+    margin: 10rem auto;
+    max-width: 17rem;
+    min-height: 30.6rem;
+    background-color: #fff;
+    border-right: 0.5rem solid #000;
+    border-bottom: 0.5rem solid #000;
+    border-top: 0.1rem solid #000;
+    border-left: 0.1rem solid #000;
+    border-radius: 1.7rem;
+  }
+
+  #imagem-avatar {
+    width: 15rem;
+    border-radius: 0.7rem;
+    margin: 1.2rem 0 0 1rem;
+  }
+
+  @font-face {
+    font-family: Figtree-ExtraBold;
+    src: url(../fonts/Figtree-ExtraBold.ttf);
+  }
+
+  #titulo {
+    padding: 0.5rem 0rem 1rem 1rem;
+    background-color: #ffcc33d8;
+    border-radius: 0.5rem;
+    width: 7.5rem;
+    margin: 1.8rem 0 0 1rem;
+    height: 1rem;
+    font-family: Figtree-ExtraBold;
+  }
+
+  @font-face {
+    font-family: Figtree-SemiBold;
+    src: url(../fonts/Figtree-SemiBold.ttf);
+  }
+
+  #publicacao {
+    margin: 0.8rem 0 0 1rem;
+    font-family: Figtree-SemiBold;
+    font-size: 0.8rem;
+  }
+
+  #titulo2 {
+    margin: 1.5rem 0 0 1rem;
+    font-family: Figtree-SemiBold;
+    font-size: 1.2rem;
+    color: #ffcc33d8;
+  }
+
+  @font-face {
+    font-family: Figtree-VariableFont_wght;
+    src: url(../fonts/Figtree-VariableFont_wght.ttf);
+  }
+
+  #citacao {
+    margin: 1rem 0 0 1rem;
+    font-family: Figtree-VariableFont_wght;
+    font-size: 0.8rem;
+  }
+
+  #imagem-principal {
+    margin: 1rem 0 0 1rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #container2 {
+    display: flex;
+    align-items: center;
+  }
+
+  #nome {
+    padding: 1rem 0 0rem 1rem;
+    font-family: Figtree-ExtraBold;
+    font-size: 0.8rem;
+  }
+}
